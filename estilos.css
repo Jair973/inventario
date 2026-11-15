@@ -1,0 +1,80 @@
+body {   
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #851818;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black
+    ;
+}   
+
+.etiqueta {
+    padding: 3px 8px;
+    border-radius: 12px;
+    color: white;
+    font-size: 13px;
+}
+
+.agotado {
+    background-color: #851818;
+}   
+
+.bajo-stock {
+    background-color: #f2a93b;
+}
+
+.disponible {
+    background-color: #4CAF50;
+}
+
+#resumen {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #1c1cd3;
+    border-radius: 8px;
+}
+
+.destacado {
+    outline: 3px solid #4CAF50;
+}
+
+.btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-menos {background-color: #f2a93b;}
+.btn-mas {background-color: #4CAF50;}
+
+
+.btn:disabled {
+    background-color: #851818;
+    cursor: not-allowed
+}
+
+.numero {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
